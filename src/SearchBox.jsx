@@ -19,7 +19,7 @@ export default function SearchBox({updateInfo}){
                 feelsLike: jsonResponse.main.feels_like,
                 weather: jsonResponse.weather[0].description,
             };
-            console.log(result);
+            console.log(result)
             return result;
     };
     let handleChange = (event) => {
