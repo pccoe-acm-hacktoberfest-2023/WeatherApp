@@ -1,4 +1,33 @@
-.card-container{
-    display:flex;
+.info-box {
+    display: flex;
     justify-content: center;
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+
+.weather-card {
+    width: 100%;
+    max-width: 345px;
+    transition: all 0.3s ease;
+}
+
+.card-media {
+    height: 140px;
+}
+
+.city-name {
+    text-align: center;
+}
+
+.weather-info p {
+    margin: 0.5rem 0;
+}
+
+.info-box.dark .weather-card {
+    background-color: #242424;
+    color: #ffffff;
+}
+
+.info-box.dark .weather-info {
+    color: rgba(255, 255, 255, 0.7);
 }

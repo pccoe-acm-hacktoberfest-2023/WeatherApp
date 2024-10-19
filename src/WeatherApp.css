@@ -1,0 +1,32 @@
+.weather-container {
+    min-height: 100vh;
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+.weather-container.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.header {
+    display: flex;
+    align-items: center;  
+    margin-bottom: 3rem;
+    margin-left:300px;
+    padding: 0 1rem;
+    gap: 1rem; 
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+  
+}
+
+.theme-toggle {
+    margin-left: 1rem;
+}
+
